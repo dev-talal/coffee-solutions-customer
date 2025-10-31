@@ -1,0 +1,16 @@
+.products-slick-container .slick-track {
+  display: flex !important;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  font-size: 30px !important;
+  color: var(--color-coffee-brown) !important;
+}
+
+@media (max-width: 767px) {
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
+}
